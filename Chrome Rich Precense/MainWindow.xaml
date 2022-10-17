@@ -1,0 +1,14 @@
+﻿<Window x:Class="Chrome_Rich_Precense.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chrome_Rich_Precense"
+        mc:Ignorable="d"
+        Title="Google Chrome Rich Presence" Height="200" Width="300">
+    <Grid Background="#FF202225">
+        <TextBlock x:Name="MainText" Margin="0,0,0,20" TextWrapping="Wrap" Foreground="White" TextAlignment="Center" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"><Run Text="Sta"/><Run Text="r"/><Run Text="ting...."/></TextBlock>
+        <TextBlock x:Name="CopyRight" Height="10" Margin="0,0,0,10" TextWrapping="Wrap" Text="Created by Tom60chat" VerticalAlignment="Bottom" Foreground="#FF747373" FontSize="8" MouseDown="CopyRight_MouseDown" MouseEnter="CopyRight_MouseEnter" MouseLeave="CopyRight_MouseLeave" Cursor="Hand" TextAlignment="Center" HorizontalAlignment="Center"/>
+
+    </Grid>
+</Window>
